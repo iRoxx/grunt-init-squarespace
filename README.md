@@ -1,15 +1,13 @@
-grunt-init-gruntnautilus
-========================
+grunt-init-squarespace
+======================
 
 [grunt]: http://github.com/gruntjs/grunt
 [grunt-nautilus]: http://github.com/kitajchuk/grunt-nautilus
 [grunt-init]: http://gruntjs.com/project-scaffolding
-[caribou]: http://let-caribou.in/
-[spring]: http://spring.io/
-[middleman]: http://middlemanapp.com/
 [squarespace]: http://developers.squarespace.com/
+[node-squarespace-server]: https://github.com/kitajchuk/node-squarespace-server/
 
-> Creates a [grunt-nautilus][] Gruntfile with [grunt-init][].
+> Creates a [grunt-nautilus][] Gruntfile with [grunt-init][] to compile into a [squarespace][] template.
 
 
 
@@ -33,15 +31,14 @@ git pull origin master
 
 
 ## Usage
-
-This init template is installing with the latest release of [grunt-nautilus][]. Run the following command from your project's root:
+This init template is installing with the latest release of [grunt-nautilus][]. Run the following command from your project's root, replacing "Firefly" with your project name:
 
 ```shell
 grunt-init squarespace --project "Firefly"
 ```
 
 
-This creates the following files in the cwd:
+This creates the following files in the current working directory:
 
 - .gitignore
 - Gruntfile.js
@@ -56,6 +53,11 @@ npm install
 ```
 
 This will install grunt, grunt-nautilus and its peer packages as well as jquery and hammerjs.
+
+
+
+## Squarespace
+Now clone your [squarespace][] template into the `sqs_template` directory and manage your site pushes from there. You can also check out [node-squarespace-server][] if you are interested in a local server for your project workflow.
 
 
 
