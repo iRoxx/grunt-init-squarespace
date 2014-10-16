@@ -58,9 +58,3 @@ This will install grunt, grunt-nautilus and its peer packages as well as jquery 
 
 ## Squarespace
 Now clone your [squarespace][] template into the `sqs_template` directory and manage your site pushes from there. You can also check out [node-squarespace-server][] if you are interested in a local server for your project workflow.
-
-
-
-## Grunt Nautilus Plugin
-
-Checkout the [grunt-nautilus][] plugin to continue.
