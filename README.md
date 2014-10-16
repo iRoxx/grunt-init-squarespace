@@ -43,7 +43,6 @@ This creates the following files in the current working directory:
 - .gitignore
 - Gruntfile.js
 - package.json
-- sqs_template
 
 Now you can install the necessary packages:
 
@@ -57,4 +56,10 @@ This will install grunt, grunt-nautilus and its peer packages as well as jquery 
 
 
 ## Squarespace
-Now clone your [squarespace][] template into the `sqs_template` directory and manage your site pushes from there. You can also check out [node-squarespace-server][] if you are interested in a local server for your project workflow.
+Now clone your [squarespace][] template into a directory called `sqs_template` directory and manage your site pushes from there.
+
+```shell
+git clone https://yoursite.squarespace.com/template.git sqs_template
+```
+
+You can also check out [node-squarespace-server][] if you are interested in a local server for your project workflow.
