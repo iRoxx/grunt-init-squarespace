@@ -1,2 +1,3 @@
-sqs_template
+# uncomment this
+#sqs_template
 node_modules
