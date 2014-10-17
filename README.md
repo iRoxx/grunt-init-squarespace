@@ -34,7 +34,7 @@ git pull origin master
 This init template is installing with the latest release of [grunt-nautilus][]. Run the following command from your project's root, replacing "Firefly" with your project name:
 
 ```shell
-grunt-init squarespace --project "Firefly"
+grunt-init squarespace --project "Firefly" --remote "https://firefly.squarespace.com/template.git"
 ```
 
 
@@ -59,7 +59,7 @@ This will install grunt, grunt-nautilus and its peer packages as well as jquery 
 Now clone your [squarespace][] template into a directory called `sqs_template` directory and manage your site pushes from there.
 
 ```shell
-git clone https://yoursite.squarespace.com/template.git sqs_template
+git clone https://firefly.squarespace.com/template.git sqs_template
 ```
 
 You can also check out [node-squarespace-server][] if you are interested in a local server for your project workflow.

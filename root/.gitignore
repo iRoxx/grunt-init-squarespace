@@ -1,2 +1,4 @@
 sqs_template
 node_modules
+.sass-cache
+.sqs-cache

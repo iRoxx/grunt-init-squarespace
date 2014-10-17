@@ -6,7 +6,8 @@
     "dependencies": {
         "grunt-nautilus": "~0.7",
         "hammerjs": "~1.0",
-        "jquery": "~2.1"
+        "jquery": "~2.1",
+        "exec": "~0.1"
     },
     "devDependencies": {},
     "scripts": {
