@@ -34,7 +34,7 @@ git pull origin master
 This init template is installing with the latest release of [grunt-nautilus][]. Run the following command from your project's root, replacing "Firefly" with your project name:
 
 ```shell
-grunt-init squarespace --project "Firefly" --remote "https://firefly.squarespace.com/template.git"
+grunt-init squarespace --project "Firefly"
 ```
 
 
