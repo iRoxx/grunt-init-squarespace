@@ -7,7 +7,7 @@ grunt-init-squarespace
 [squarespace]: http://developers.squarespace.com/
 [node-squarespace-server]: https://github.com/kitajchuk/node-squarespace-server/
 
-> Creates a [grunt-nautilus][] Gruntfile with [grunt-init][] to compile into a [squarespace][] template.
+> A Squarespace template project scaffold that keeps your source code separate from your template code.
 
 
 
