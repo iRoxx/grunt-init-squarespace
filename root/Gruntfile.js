@@ -75,22 +75,4 @@ module.exports = function ( grunt ) {
     grunt.registerTask( "default", ["nautilus:build"] );
 
 
-    // Register squarespace task.
-    grunt.registerTask( "sqs-deploy", function () {
-        var ret = process.cwd(),
-            msg = (grunt.option( "message" ) || "."),
-            path = require( "path" ),
-            exec = require( "exec" ),
-            done = this.async();
-
-        process.chdir( path.join( __dirname, "sqs_template" ) );
-
-        exec( "git add . ; git commit -m '" + msg + "' ; git push origin master", function ( err, stdout ) {
-            grunt.log.ok( stdout );
-            process.chdir( ret );
-            done();
-        });
-    });
-
-
 };
