@@ -56,7 +56,7 @@ exports.template = function ( grunt, init, done ) {
 
         grunt.log.ok( "\nInitialized 'squarespace' template." );
 
-        grunt.log.ok( "\nGruntfile ready. Run 'npm install', then 'grunt'.\n" );
+        grunt.log.ok( "\nGruntfile ready. Check https://github.com/kitajchuk/grunt-init-squarespace for more info.\n" );
         grunt.log.ok( "- @kitajchuk" );
 
 };
